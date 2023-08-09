@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/61c9591fba.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header" id="header">
+      <nav>
+        <img class="logo" src="./Images/logo.png" alt="" />
+        <div class="nav-elements" id="nav-links">
+          <i
+            id="close"
+            class="fa-solid fa-xmark fa-2xl"
+            style="color: #fff"
+            onclick="closemenu()"
+          ></i>
+          <ul>
+            <li><a href="#header" id="home">Home</a></li>
+            <li><a href="#courses">Course</a></li>
+            <li><a href="#campuses">Campuses</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+        <i
+          id="bars"
+          class="fa-solid fa-bars fa-2xl"
+          style="color: #fff"
+          onclick="openmenu()"
+        ></i>
+      </nav>
+      <div class="header-info">
+        <h1>World's Biggest University</h1>
+        <p>
+          We’re a leading research university with a heart. Founded in the
+          decade that the U.S. Constitution was signed, we’re the nation’s
+          oldest Catholic and Jesuit university. Today we’re a forward-looking,
+          diverse community devoted to social justice, restless inquiry and
+          respect for each person’s individual needs and talents..
+        </p>
+        <div class="header-btn">
+          <button class="visit-btn">Visit Us To Know More</button>
+        </div>
+      </div>
+    </section>
+    <!-- HEADER ENDS -->
+
+    <!-- COURSES STARTS -->
+    <section class="courses" id="courses">
+      <h1>Courses We Offer</h1>
+      <p class="descrip">
+        Explore the intersection of technology and society. Learn about
+        environmental justice. Take the famous Problem of God course. Our
+        innovative courses inspire and invite you to help solve some of today’s
+        most pressing local, national and global issues.
+      </p>
+      <div class="cards">
+        <div class="card-1" data-aos="fade-right" data-aos-duration="1000">
+          <h3>Undergraduate Programs</h3>
+          <p>
+            For decades, Eduford College has improved the health of our
+            communities, one graduate at a time. The JoAnn McGrath School of
+            Nursing and Health Professions, as one of the largest nursing
+            schools in Wisconsin, offers a wide array of fully accredited
+            nursing programs, guaranteed clinical placements and a
+            technology-rich Center for Clinical Education.
+          </p>
+        </div>
+        <div class="card-2" data-aos="zoom-in" data-aos-duration="1000">
+          <h3>Graduate Programs</h3>
+          <p>
+            Building on our strong roots in leadership, health care and
+            education, Eduford is proud to offer an array of coed graduate
+            programs for women and men who are ready to advance their careers
+            and grow as leaders. The Eduford College Community Psychology
+            Master's program will help you to meet your goals of becoming a
+            Licensed Professional Counselor.
+          </p>
+        </div>
+        <div class="card-3" data-aos="fade-left" data-aos-duration="1000">
+          <h3>Post Graduation</h3>
+          <p>
+            The Eduford, as one of the largest nursing schools in Wisconsin,
+            offers a wide array of fully accredited nursing programs, guaranteed
+            clinical placements and a technology-rich Center for Clinical
+            Education. The Eduford College Community Psychology Master's program
+            will help you to meet your goals of becoming a Licensed Professional
+            Counselor.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- COURSES ENDS -->
+
+    <!-- CAMPUSES STARTS -->
+    <section class="campus" id="campuses">
+      <h1>Our Global Campus</h1>
+      <p class="descrip">
+        The University of Hartford's main campus is located on Bloomfield
+        Avenue. Surrounded by green space, the main campus is divided into
+        residential and academic buildings connected by a bridge that overlooks
+        the north branch of the Park River, known to us as Hog River.
+      </p>
+      <div class="locations">
+        <div class="camp-1" data-aos="flip-left" data-aos-duration="2000">
+          <img src="./Images/london.png" alt="" />
+          <div class="layer">
+            <h2>LONDON</h2>
+          </div>
+        </div>
+        <div class="camp-2" data-aos="flip-left" data-aos-duration="2000">
+          <img src="./Images/newyork.png" alt="" />
+          <div class="layer">
+            <h2>NEW YORK</h2>
+          </div>
+        </div>
+        <div class="camp-3" data-aos="flip-left" data-aos-duration="1000">
+          <img src="./Images/washington.png" alt="" />
+          <div class="layer">
+            <h2>WASHINGTON</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CAMPUS ENDS -->
+
+    <!-- FACILITIES STARTS -->
+    <section class="facilities" id="facilities">
+      <h1>Our Facilities</h1>
+      <p class="descrip">
+        We commit to meet the financial need of every admitted undergraduate
+        student. We don’t consider your ability to pay when we review your
+        application, and we don’t base our decision on whether you can cover the
+        cost. If you’re accepted here, you belong here.
+      </p>
+      <div class="facility-cards">
+        <div
+          class="facility-1"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <img src="./Images/library.png" class="library" alt="" />
+          <div class="facility-descrip" id="facility-descrip-1">
+            <h2>World Class Library</h2>
+            <p>
+              Pursue research at Eduford’s libraries, which include more than
+              3.5 million holdings. Whether your focus is on a specific
+              discipline, interdisciplinary areas or emerging fields, our
+              libraries offer academic resources, a maker hub, collaborative
+              spaces and more.
+            </p>
+          </div>
+        </div>
+        <div
+          class="facility-2"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <img src="./Images/basketball.png" class="basketball" alt="" />
+          <div class="facility-descrip">
+            <h2>Largest Play Ground</h2>
+            <p>
+              The College introduces students to philosophy and theology and
+              challenges them to delve deeply into the arts, humanities,
+              languages, social sciences and sciences.
+            </p>
+          </div>
+        </div>
+        <div
+          class="facility-3"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <img src="./Images/cafeteria.png" class="cafeteria" alt="" />
+          <div class="facility-descrip" id="facility-descrip-3">
+            <h2>Tasty and Healthy Food</h2>
+            <p>
+              Whether students pursue studies in Arabic, chemistry, government
+              or one of hundreds of other opportunities, they are part of a rich
+              legacy of academic excellence designed to serve them well in an
+              ever-changing world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FACILITIES ENDS -->
+
+    <!-- CONTACT US STARTS -->
+    <section class="contact-us" id="contact">
+      <div class="contact-info">
+        <h1>Enroll For Our Various Online Courses</h1>
+        <h1>Anywhere from the World</h1>
+        <br />
+        <a href="/">Contact us</a>
+      </div>
+    </section>
+    <!-- Contact Us Ends -->
+
+    <!-- About Us STARTS -->
+    <section class="about" id="about">
+      <h1>About Us</h1>
+      <p>
+        We’re a leading research university with a heart. Founded in the decade
+        that the U.S. Constitution was signed, we’re the nation’s oldest
+        Catholic and Jesuit university. We’re a community of people who bridge
+        our disparate experiences and identities. Meet the people and places
+        that make Eduford home.
+      </p>
+      <h2>Made for study purposes</h2>
+    </section>
+
+    <!-- TOGGLE MENU SCRIPT -->
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      let navLinks = document.getElementById("nav-links");
+      let bars = document.getElementById("bars");
+
+      const openmenu = () => {
+        navLinks.style.display = "block";
+        bars.style.display = "none";
+      };
+
+      const closemenu = () => {
+        navLinks.style.display = "none";
+        bars.style.display = "block";
+      };
+    </script>
+  </body>
+</html>
