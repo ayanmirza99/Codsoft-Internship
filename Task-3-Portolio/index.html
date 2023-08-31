@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/61c9591fba.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+  <body>
+    <section class="header" id="header">
+      <nav>
+        <h2>Ayan Mirza</h2>
+        <div class="nav-elements" id="nav-links">
+          <i
+            id="close"
+            class="fa-solid fa-xmark fa-2xl"
+            style="color: #fff"
+            onclick="closemenu()"
+          ></i>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+        <i
+          id="bars"
+          class="fa-solid fa-bars fa-2xl"
+          style="color: #fff"
+          onclick="openmenu()"
+        ></i>
+      </nav>
+      <header class="main-head">
+        <h1>Hi, I'm <span>Ayan Mirza</span></h1>
+        <h2>
+          I'm a
+          <a
+            href=""
+            class="typewrite"
+            data-period="1000"
+            data-type='[ "Front-End Developer", "Back-End Developer", "MERN Stack Developer"]'
+            ><span class="wrap"></span
+          ></a>
+        </h2>
+    </header>
+    </section>
+    <section class="about" id="about">
+      <div class="about-info" data-aos="fade-up" data-aos-duration="1000">
+        <h1>
+          <span>From Pixels to Functionality:</span> Crafting Web Experiences
+          with Passion
+        </h1>
+        <p>
+          Hey I'm Ayan, a frontend developer passionate about blending
+          creativity with functionality to create captivating user experiences.
+          I've also been venturing into backend development, exploring Node.js,
+          Express, and databases to build dynamic web applications. With a
+          problem-solving mindset and a focus on collaboration, I aim to
+          contribute to innovative projects that marry visual aesthetics with
+          seamless functionality. Let's connect and craft remarkable digital
+          solutions together.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="Images/about-me.avif" alt="" />
+      </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1>My Skill Set</h1>
+        <div class="icons" data-aos="fade-up-right" data-aos-duration="1000">
+            <div class="icons-label">
+                <img src="Images/icons8-html-144.png" alt="HTML5">
+                <h3>HTML</h3>
+            </div>
+            <div class="icons-label">
+                <img src="Images/icons8-css-144.png" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="icons-label">               
+                <img src="Images/icons8-js-144.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="icons-label">
+                <img src="Images/icons8-react-js-160.png" alt="React JS">
+                <h3>React JS</h3>
+            </div>
+            <div class="icons-label">
+                <img src="Images/icons8-node-js-144.png" alt="Node JS">
+                <h3>Node JS</h3>
+            </div>
+            <div class="icons-label" id="express">
+                <img  src="Images/icons8-express-js-144.png" alt="Express JS">
+                <h3>Express JS</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+        <h1 class="p-head">Projects</h1>
+      <div class="projects">
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+          <div class="project-img">
+            <img src="./Images/1684187399247.jpg" alt="">
+          </div>
+          <div class="project-info">
+            <h1>Interwood Clone</h1>
+            <h2>Tech Stack: </h2>
+            <h3>HTML, CSS and Bootstrap5</h3>
+            <div class="project-btns">
+              <button><a href="https://github.com/ayanmirza99/Inter-Wood-clone">View The Code</a></button>
+              <button><a href="">Check It Out</a></button>
+            </div>
+        </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+          <div class="project-img">
+            <img src="./Images/Eduford.png" alt="">
+          </div>
+          <div class="project-info">
+            <h1>Eduford Clone</h1>
+            <h2>Tech Stack: </h2>
+            <h3>HTML, CSS and JavaScript</h3>
+            <div class="project-btns">
+              <button><a href="https://github.com/ayanmirza99/Codsoft-Internship/tree/main/Tak-1-LandingPage">View The Code</a></button>
+              <button><a href="https://task1-landing-page.netlify.app">Check It Out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+          <div class="project-img">
+            <img src="./Images/Netflix.png" alt="">
+          </div>
+          <div class="project-info">
+            <h1>Netflix Clone</h1>
+            <h2>Tech Stack: </h2>
+            <h2>React JS</h2>
+            <div class="project-btns">
+              <button><a href="https://github.com/mohiburrehmanniazi/Main-Project-1">View The Code</a></button>
+              <button><a href="https://movies18700.netlify.app/">Check It Out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+          <div class="project-img">
+            <img src="./Images/karpool.png" alt="">
+          </div>
+          <div class="project-info">
+            <h1>Carpool Website</h1>
+            <h2>Tech Stack: </h2>
+            <h2>MERN Stack</h2>
+          </div>
+          <div class="project-btns carpool">
+            <button><a href="https://github.com/ayanmirza99/Carpool-Website">View The Code</a></button>
+            <button><a href="">Check It Out</a></button>
+          </div> 
+        </div>
+
+        
+      </div>
+    </section>
+    
+    <section class="contact" id="contact">
+      <div class="social-links" data-aos="fade-right" data-aos-duration="1000">
+        <div class="github">
+          <a href="https://github.com/ayanmirza99">
+            <img src="./Images/icons8-github-96.png" alt="">
+            <h2>Github</h2>
+          </a>
+        </div>
+        <div class="linkedIn">
+          <a href="https://www.linkedin.com/in/ayan-mirza-a0212a277/">
+            <img src="./Images/icons8-linkedin-64.png" alt="">
+            <h2>Linked In</h2>
+          </a>
+        </div>
+        <div class="twitter">
+          <a href="">
+            <img src="./Images/icons8-twitterx-96.png" alt="">
+            <h2>Twitter</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+      <div class="form" data-aos="flip-left" data-aos-duration="1000">
+          <div class="heading">
+            <h1>Get In Touch</h1>
+          </div>
+          <div class="form-fields">
+            <div class="field">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="field">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <div class="field">
+              <textarea name="Message" placeholder="Message" id="" cols="10" rows="4"></textarea>
+            </div>
+            <div class="form-btn">
+              <button>Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#header" class="to-top"><img src="./Images/icons8-slide-up-50.png" alt=""></a>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+
+      // RESPONSIVE NAVBAR
+      let navLinks = document.getElementById("nav-links");
+      let bars = document.getElementById("bars");
+
+      const openmenu = () => {
+        navLinks.style.display = "block";
+        bars.style.display = "none";
+      };
+
+      const closemenu = () => {
+        navLinks.style.display = "none";
+        bars.style.display = "block";
+      };
+
+      // TYPEWRITER  TEXT
+      let TxtType = function (el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = "";
+        this.tick();
+        this.isDeleting = false;
+      };
+
+      TxtType.prototype.tick = function () {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+        let that = this;
+        let delta = 200 - Math.random() * 350;
+
+        if (this.isDeleting) {
+          delta /= 2;
+        }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === "") {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+        }
+
+        setTimeout(function () {
+          that.tick();
+        }, delta);
+      };
+
+      window.onload = function () {
+        let elements = document.getElementsByClassName("typewrite");
+        for (let i = 0; i < elements.length; i++) {
+          let toRotate = elements[i].getAttribute("data-type");
+          let period = elements[i].getAttribute("data-period");
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+        }
+
+        let css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap {border-right: 0.5rem solid rgb(192, 102, 194)}";
+        document.body.appendChild(css);
+      };
+
+      // SCROLL TO TOP BUTTON
+      const toTop = document.querySelector(".to-top")
+
+      window.addEventListener("scroll", () => {
+        if(window.pageYOffset > 150){
+          toTop.classList.add("active")
+        }else{
+          toTop.classList.remove("active")
+        }
+      })
+
+    </script>
+  </body>
+</html>

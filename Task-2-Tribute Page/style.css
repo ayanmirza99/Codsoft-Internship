@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+}
+.img-div{
+    height: 600px;
+}
+img{
+    padding: 10px;
+    padding-top: 0;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 100px;
+    color: #fff;
+}
+.heading h1{
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading h2{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.main-heading h1{
+    font-size: 3.6em;
+    font-family: 'Roboto', sans-serif;
+}
+.tribute{
+    margin-top: 70px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 80px;
+    margin-bottom: 60px;
+}
+.para h2{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(42, 42, 42);
+}
+.para p{
+    text-align: justify;
+    font-size: 1.4em;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.para ol{
+    padding: 0 22px;
+    font-size: 1.4em;
+}
+.para a{
+    text-decoration: none;
+    /* font-family: 'Hind Madurai', sans-serif; */
+}
+.para li{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+@media (max-width: 1645px) {
+    header{
+        flex-direction: column;
+        gap: 0;
+    }
+    .img-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 400px;
+    }
+    img{
+        padding: 0;
+        border-radius: 5px;
+    }
+    .heading{
+        align-items: center;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    .heading h1{
+        font-size: 3.6em;
+    }
+    .heading h2{
+        font-size: 2.6em;
+    }
+}
+@media (max-width:940px) {
+    .img-div{
+        height: 350px;
+        margin-top: 10px;
+    }
+    .heading h1{
+        font-size: 3em;
+    }
+    .heading h2{
+
+    }
+    .main-heading h1{
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .para h2{
+        font-size: 2.5em;
+    }
+    .para p{
+        font-size: 1.3em;
+    }
+    .para ol{
+        font-size: 1.3em;
+    }
+}
